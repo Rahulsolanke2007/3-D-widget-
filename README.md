@@ -23,9 +23,8 @@ A sleek, interactive 3D torus widget built with **Three.js** and **React**, feat
 |-------------|--------------------------------------|
 | Frontend    | React, Vite                          |
 | 3D Engine   | Three.js                             |
-| Styling     | Tailwind CSS                         |
 | UI Icons    | Lucide React                         |
-| Deployment  | Netlify / Vercel / GitHub Pages (up to you) |
+
 
 ---
 
