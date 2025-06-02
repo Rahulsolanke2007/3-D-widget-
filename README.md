@@ -88,7 +88,7 @@ npm run dev
 > Add your screenshots or GIFs here
 
 ```
-![Screenshot (108)](https://github.com/user-attachments/assets/220ca28c-3f44-45a9-9d89-0536bff403bf)
+https://res.cloudinary.com/drzydaw9o/image/upload/v1748859724/Screenshot_108_izircd.png
 
 ```
 
