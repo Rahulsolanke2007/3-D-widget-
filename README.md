@@ -46,8 +46,8 @@ A sleek, interactive 3D torus widget built with **Three.js** and **React**, feat
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/interactive-3d-widget.git
-cd interactive-3d-widget
+git clone https://github.com/Rahulsolanke2007/3-D-widget-.git
+cd 3-D_Widget
 ```
 
 ---
@@ -71,29 +71,6 @@ npm run dev
 
 ---
 
-## 📦 Build for Production
-
-```bash
-npm run build
-```
-
-To preview:
-
-```bash
-npm run preview
-```
-
----
-
-## 🌐 Environment (Optional)
-
-If you want to expose environment variables:
-
-```bash
-# .env (optional)
-VITE_API_URL=http://localhost:5173
-```
-
 ---
 
 ## 🎮 Controls Summary
@@ -105,53 +82,13 @@ VITE_API_URL=http://localhost:5173
 | 🔁 Reset       | Resets object rotation to default         |
 | 🎚️ Speed       | Adjust rotation speed dynamically         |
 
----
-
-## 🧩 Possible Improvements
-
-- Add drag rotation via OrbitControls
-- Use `SphereGeometry` / `BoxGeometry` etc.
-- Export widget as a reusable NPM module
-- Animate lighting or background environment
-
----
 
 ## 📸 Screenshots / Preview
 
 > Add your screenshots or GIFs here
 
 ```
-📷 Coming soon...
+![Screenshot (108)](https://github.com/user-attachments/assets/220ca28c-3f44-45a9-9d89-0536bff403bf)
+
 ```
 
----
-
-## 🚀 Deployment Tips
-
-Deploy on:
-
-- **Vercel**: Connect repo → Build: `npm run build`
-- **Netlify**: Drag `dist/` folder or connect Git
-- **GitHub Pages**: Use `vite-plugin-gh-pages` or `gh-pages` branch
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
-## 👤 Author
-
-**Your Name**  
-🔗 [GitHub](https://github.com/your-username)  
-🌐 [Portfolio](https://yourportfolio.com)
-
----
-
-## ✅ Done!
-
-You’re ready to build, tweak, and ship your 3D experience!
-
----
