@@ -1,97 +1,157 @@
-# 🧩 Interactive 3D Widget with Three.js and React
+# 🌀 Interactive 3D Widget – Three.js + React
 
-A responsive and interactive 3D widget built using **Three.js** and **React**, showcasing a torus geometry that users can rotate by hovering over it. Includes controls to **play/pause** rotation, adjust **rotation speed**, and **reset orientation**. Built using **Vite** and styled with **Tailwind CSS**.
-
----
-
-## ✨ Features
-
-- 🎯 Real-time 3D rendering using `three.js`
-- 🌀 Smooth auto-rotation with speed control
-- 🎮 Interactive behavior on hover (responds to mouse movement)
-- ⏸️ Play/Pause toggle for rotation animation
-- 🔄 Reset button to bring geometry back to default position
-- 📱 Fully responsive & styled with Tailwind CSS
+A sleek, interactive 3D torus widget built with **Three.js** and **React**, featuring smooth rotation, responsive UI controls, and dynamic lighting. Ideal for learning Three.js or integrating modern 3D visuals into any React app.
 
 ---
 
-## 📸 Preview
+## 🚀 Features
 
-![Interactive 3D Widget Preview](https://your-preview-image-url.com) <!-- Replace with actual screenshot or demo GIF -->
+- 🎯 Auto-rotating 3D object (Torus)
+- 🖱️ Mouse hover interaction for dynamic motion
+- ⏯️ Play/Pause toggle for rotation
+- 🔁 Reset button for default orientation
+- ⚙️ Speed adjustment slider
+- 🌈 Ambient and directional lighting
+- 💻 Responsive & modular component
+- 🪄 Built with clean and concise custom logic
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Tech Stack
 
-Follow these steps to set up the project locally:
+| Layer       | Tools / Libraries                    |
+|-------------|--------------------------------------|
+| Frontend    | React, Vite                          |
+| 3D Engine   | Three.js                             |
+| Styling     | Tailwind CSS                         |
+| UI Icons    | Lucide React                         |
+| Deployment  | Netlify / Vercel / GitHub Pages (up to you) |
 
-### 1. Clone the repository
+---
+
+## 📁 Project Structure
+
+```
+/src
+├── components
+│   └── Interactive3DWidget.jsx  # 3D logic + UI
+├── App.jsx                      # Renders the widget
+└── main.jsx                     # Entry point
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/interactive-3d-widget.git
 cd interactive-3d-widget
-2. Install dependencies
-Make sure you have Node.js installed. Then run:
+```
 
-bash
-Copy
-Edit
+---
+
+### 2️⃣ Install Dependencies
+
+```bash
 npm install
-3. Start the development server
-bash
-Copy
-Edit
+```
+
+---
+
+### 3️⃣ Start Development Server
+
+```bash
 npm run dev
-This will start Vite and host the app at http://localhost:5173 (or similar). It supports hot-reloading during development.
+```
 
-🧱 Built With
-Tech	Description
-React	UI library for building interactive UIs
-Three.js	3D graphics library for rendering in WebGL
-Vite	Fast frontend build tool and dev server
-Tailwind CSS	Utility-first CSS framework
-Lucide React	Clean and consistent icon pack
+👉 App runs locally at:  
+`http://localhost:5173`
 
-🛠 Folder Structure
-pgsql
-Copy
-Edit
-src/
-├── components/
-│   └── Interactive3DWidget.jsx  # The main 3D widget component
-├── App.jsx                      # App wrapper
-└── main.jsx                     # Entry point
-⚙️ Customization
-You can easily extend or tweak:
+---
 
-🎨 Color and material of the geometry (MeshPhongMaterial)
+## 📦 Build for Production
 
-🔺 Geometry type (TorusGeometry, BoxGeometry, etc.)
-
-⚙️ Rotation behavior or add gesture support (drag/scroll)
-
-🧪 Future Improvements
-✋ Add drag-to-rotate support with OrbitControls
-
-🌌 Add stars or space background
-
-📦 Publish as reusable NPM component
-
-📦 Production Build
-To create an optimized production build:
-
-bash
-Copy
-Edit
+```bash
 npm run build
-To preview the production build locally:
+```
 
-bash
-Copy
-Edit
+To preview:
+
+```bash
 npm run preview
-🧑‍💻 Author
-Your Name
-GitHub: @your-username
-Portfolio: your-portfolio.com
+```
 
+---
+
+## 🌐 Environment (Optional)
+
+If you want to expose environment variables:
+
+```bash
+# .env (optional)
+VITE_API_URL=http://localhost:5173
+```
+
+---
+
+## 🎮 Controls Summary
+
+| Feature         | Description                              |
+|----------------|------------------------------------------|
+| Hover          | Interactive motion control via mouse     |
+| ▶️ Play/Pause  | Toggle auto-rotation                     |
+| 🔁 Reset       | Resets object rotation to default         |
+| 🎚️ Speed       | Adjust rotation speed dynamically         |
+
+---
+
+## 🧩 Possible Improvements
+
+- Add drag rotation via OrbitControls
+- Use `SphereGeometry` / `BoxGeometry` etc.
+- Export widget as a reusable NPM module
+- Animate lighting or background environment
+
+---
+
+## 📸 Screenshots / Preview
+
+> Add your screenshots or GIFs here
+
+```
+📷 Coming soon...
+```
+
+---
+
+## 🚀 Deployment Tips
+
+Deploy on:
+
+- **Vercel**: Connect repo → Build: `npm run build`
+- **Netlify**: Drag `dist/` folder or connect Git
+- **GitHub Pages**: Use `vite-plugin-gh-pages` or `gh-pages` branch
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👤 Author
+
+**Your Name**  
+🔗 [GitHub](https://github.com/your-username)  
+🌐 [Portfolio](https://yourportfolio.com)
+
+---
+
+## ✅ Done!
+
+You’re ready to build, tweak, and ship your 3D experience!
+
+---
